@@ -1,12 +1,16 @@
 import React from "react";
+import CartWidget from "./CartWidget";
+import Brand from "./Brand";
+
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        {/* <a className="navbar-brand" href="#">
           MiTiendaOL
-        </a>
+        </a> */}
+        <Brand/>
         <button
           className="navbar-toggler"
           type="button"
@@ -71,6 +75,7 @@ const NavBar = () => {
               Buscar
             </button>
           </form>
+          <CartWidget/>
         </div>
       </div>
     </nav>

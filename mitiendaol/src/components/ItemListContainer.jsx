@@ -7,7 +7,7 @@ const styles = {
 const ItemListContainer = (props) => {
   return (
     <div class="card" style={styles}>
-      <div class="card-body">{props.greeting}</div>
+      <div class="card-body">{props.children}</div>
     </div>
   );
 }
